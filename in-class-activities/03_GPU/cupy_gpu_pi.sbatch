@@ -11,6 +11,7 @@
 #SBATCH --account=macs30113
 
 module load python/anaconda-2022.05 cuda/11.7
+module load cuda/12.2
 
 python cupy_gpu_pi.py --n 1000000
 python cupy_gpu_pi.py --n 10000000
